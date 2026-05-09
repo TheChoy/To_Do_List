@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My To Do List</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js" defer></script>
 </head>
 
 <body>
+    <nav>
+        <h2 id="clock" style="padding-right: 20px;">00:00:00</h2>
+        <p id="date" style="padding-right: 20px;"></p>
+    </nav>
     <div class="head">
         <h1 class="todo">To Do List</h1>
         <textarea id="textTodo"  placeholder="สิ่งที่ต้องทำ" class="havetodo" rows="5" cols="50"> </textarea>
@@ -17,6 +20,8 @@
         <ul id="ul">
         </ul>
     </div>
+
+    <script src="index.js" defer></script>
 </body>
 
 </html>

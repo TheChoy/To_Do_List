@@ -27,3 +27,11 @@ body {
     border: 2px solid #51c2d5;
     font-size: 25px;
 }
+
+nav{
+    background-color: #8dbafd;
+    border-radius: 12px;
+    text-align: right;
+}
+
+
